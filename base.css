@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'HKPro';
+    src: url(./assets/font/HKGroteskPro-Medium.woff2);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'HKPro';
+    src: url(./assets/font/HKGroteskPro-Regular.woff2);
+}
+
+html {
+    font-family: 'HKPro', sans-serif; 
+    font-size: 62.5%;
+}
+
+:root {
+    --white-color: #fff;
+    --black--color: #000;
+    --primary-color: #335eea;
+    --nav-color: #506690
+}
+
+.btn-primary {
+    background-color: #335eea;
+    border-color: #335eea;
+    color: #fff; 
+}
+
+.lift:hover {
+    box-shadow: 0 1rem 2.5rem rgba(22,28,45,.1),0 .5rem 1rem -.75rem rgba(22,28,45,.1)!important;
+    transform: translate3d(0,-3px,0);
+}
+.grid {
+    margin: 0 auto;
+    max-width: 103.9rem;
+}
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+
+.pd-2 {
+    padding: 2rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mb-4 {
+    margin-bottom: 4rem!important;
+}
+.col-12 {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.col-6 {
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.col-4 {
+    width: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.col-3 {
+    width: 33.3333%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+/* .dropdown-menu {
+    background-color: #fff;
+    border: 0 solid rgba(22,28,45,.15);
+    border-radius: 0.375rem;
+    box-shadow: 0 0.5rem 1.5rem rgb(22 28 45 / 10%);
+    color: #161c2d;
+    display: block;
+    font-size: 1.8rem;
+    list-style: none;
+    margin: 0;
+    min-width: 14rem;
+    padding: 1.625rem 1.75rem;
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+} */
